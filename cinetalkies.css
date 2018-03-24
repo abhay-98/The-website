@@ -1,0 +1,204 @@
+body{
+  margin: 0;
+  padding:0;
+}
+#first_row{
+position: fixed;
+height: 60px;
+width: 10000;
+background-color: #4527a0;
+z-index: 1;
+}
+#Home{
+float: left;
+padding: 15px 0px 9px 20px;
+}
+a{
+text-decoration: none;
+}
+
+a:hover{
+text-decoration: underline;
+}
+#sell{
+float: left;
+margin: 10px 0px 9px 40px;
+font-size: 29;
+color: white;
+font-weight: bold;
+}
+
+#Buy{
+float: left;
+margin: 10px 100px 9px 120px;
+font-size: 29;
+font-weight: bold;
+}
+#Icon{
+border-radius: 50%;
+padding:10px 40px 9px 0px;
+}
+#notify{
+position: fixed;
+left: 920px;
+top: 10px;
+border-radius: 50%;
+}
+#Location{
+position: fixed;
+left: 1100px;
+top: 10px;
+border-radius: 50%;
+}
+#Account{
+position: fixed;
+left: 1000px;
+top: 10px;
+border-radius: 80%;
+
+}
+
+#Second_row{
+position: fixed;
+top: 60px;
+height: 80px;
+width: 1370;
+background-color:#4a148c;
+z-index: 2;
+}
+#Bolly_Button{
+  position: fixed;
+  top: 70px;
+  left: 60px;
+}
+#Holly_Button{
+position: fixed;
+top: 70px;
+right: 60px;
+}
+#Search{
+position: fixed;
+left: 400px;
+top: 80px;
+background-color: grey;
+}
+#Search input {
+   height: 18px;
+   width: 370px;
+}
+#Searchicon{
+border: none;
+position: fixed;
+left: 769px;
+top: 81px;
+
+}
+#third-row1{
+position: absolute;
+top: 160px;
+left: 40px;
+margin: 20px 50px 00px 50px;
+z-index: 0;
+}
+#book1{
+position: absolute;
+top:340px;
+left: -3px;
+}
+#third-row2{
+position: absolute;
+top: 570px;
+left: 40px;
+padding: 20px 50px 20px 50px;
+z-index: 0;}
+
+#book2{
+position: absolute;
+top:920px;
+left: 85px;
+}
+#third-row3{
+position: absolute;
+ top: 970px;
+left: 40px;
+padding: 20px 50px 20px 50px;
+z-index: 0;
+}
+#book3{
+position: absolute;
+top:1330px;
+left: 85px;
+}
+
+#third-row4{
+position: absolute;
+top: 160px;
+left: 440px;
+padding: 20px 50px 20px 50px;
+z-index: 0;
+}
+#book4{
+position: absolute;
+top: 520px;
+left: 490px;
+}
+#third-row5{
+position: absolute;
+top: 570px;
+left: 440px;
+padding: 20px 50px 20px 50px;
+z-index: 0;}
+#book5{
+position: absolute;
+top:920px;
+left: 490px;
+}
+#third-row6{
+position: absolute;
+ top: 970px;
+left: 440px;
+padding: 20px 50px 20px 50px;
+z-index: 0;}
+#book6{
+position: absolute;
+top: 1330px;
+left: 490px;
+}
+#third-row7{
+position: absolute;
+top: 160px;
+left: 840px;
+padding: 20px 50px 20px 50px;
+z-index: 0;
+}
+#book7{
+position: absolute;
+top:520px;
+left: 890px;
+}
+#third-row8{
+position: absolute;
+top: 570px;
+left: 840px;
+padding: 20px 50px 20px 50px;
+z-index: 0;}
+#book8{
+position: absolute;
+top:920px;
+left: 890px;
+}
+#third-row9{
+position: absolute;
+ top: 970px;
+left: 840px;
+padding: 20px 50px 20px 50px;
+z-index: 0;}
+#book9{
+position: absolute;
+top:1330px;
+left: 890px;
+}
+#cine{
+font-size: 28px;
+z-index: 6;
+}
