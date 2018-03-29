@@ -1,0 +1,97 @@
+<html>
+    <head>
+      <style>
+      #fb{
+      position: absolute;
+      left: 850px;
+      top: 100px;
+      border-radius: 50%;
+      }
+      #google{
+      position: absolute;
+      left: 350px;
+      top: 100px;
+      border-radius: 50%;
+
+      }
+      #form {
+      width:40%;
+      height:450px;
+      margin:auto;
+      position:absolute;
+      top: 180px;
+      left:350;
+      font-weight: bold;
+      }
+       input {
+      width:100%;
+      height: 25px;
+      font-weight: bold;
+
+       }
+      [type=text]:focus {
+        background-color:rgba(246, 250, 56, 1);
+         width: 100%;
+      }
+      input[type=text] {
+      border: 2px solid grey;
+      border-radius: 10px;
+
+      }
+      input[type=Password] {
+      border: 2px solid grey;
+      border-radius: 10px;
+    }
+      </style>
+    </head>
+
+    <body>
+
+      <body bgcolor=rgb(209, 209, 217)>
+        <div id="fb">
+          <a href="https://www.facebook.com/" target="_self">
+          <img ismap src="E:\PROG\cine_images\fb.jpg" height="60" width="60">
+        </a>
+        </div>
+        <div id="google">
+          <a href="https://mail.google.com" target="_self">
+          <img ismap src="E:\PROG\cine_images\google.png" height="60" width="60">
+        </a>
+        </div>
+      <form id="form" name="myForm" method="post"><font color="white">
+        <font size="5">
+          <p>  First name:<br >
+          <input type="text" name="fname"><p>
+          Last name:<br>
+          <input type="text" name="lname"><p>
+          Email:<br>
+            <input id="E-mail" type="text" name="E-mail">
+          <p>
+          Username:<br>
+          <input id="User_n"type="text" name="Username">
+          <p>
+          Password: <input id="txtPassword" type="password" name="password">
+          <p>
+          Confirm  Password: <input id="txtConfirmPassword" type="password" name="password">
+          <p>
+            <input type="button" id="btnSubmit" value="Submit" onclick="return Validate()" />
+        </font>
+      </font>
+      </form>
+      <script type="text/javascript">
+    function Validate() {
+        var password = document.getElementById("txtPassword").value;
+        var confirmPassword = document.getElementById("txtConfirmPassword").value;
+        if (password != confirmPassword) {
+            alert("Passwords do not match.");
+            return false;
+        }
+      {  var x = document.forms["myForm"]["fname"].value;
+   if (x == "") {
+       alert("Name must be filled out");
+       return false;}
+        return true;
+    }}
+</script>
+    </body>
+  </html>
