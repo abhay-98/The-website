@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <<style>
+    .boxed {
+      position: absolute;
+      right: 400px;
+      top: 100px;
+      height: 500px;
+      width: 600px;
+      border: 1px solid green ;
+      background-color: #5fe0ed;
+    }
+    .first_row{
+      height: 70px;
+      width: 600px;
+        background-color: rgb(240, 113, 208);
+        font-size: 150%;
+        font-weight: bold;
+        font-style: sans-serif;
+    }
+    #center{
+      font-size: 130%;
+    }
+    .text{
+      position: relative;
+      left: 200px;
+      top: 20px;
+      font-size: 120%;
+      font-weight: bold;
+      font-style: sans-serif;
+    }
+    #exp{
+      position: relative;
+      top: 50px;
+      left: 130px;
+      color: #e22323;
+  width: 430px;
+    }
+    .help{
+      position: relative;
+      left: 70px;
+      top: 70px;
+      width: 480px;
+      color: rgb(126, 77, 68);
+    }
+    input[type=email] {
+        width: 90px;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 10%;
+        font-size: 16px;
+        background-color: white;
+        background-position: 10px 10px;
+        background-repeat: no-repeat;
+        padding: 12px 20px 12px 40px;
+        -webkit-transition: width 0.5s ease-in-out;
+        transition: width 0.5s ease-in-out;
+    }
+
+    input[type=email]:focus {
+        width: 90%;
+         background-color: rgb(213, 238, 184);
+    }
+    #mail{
+      position: relative;
+      top: 100px;
+      left: 20px;
+    }
+    input[type=button], input[type=submit], input[type=reset] {
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        width: 90%;
+        padding: 16px 32px;
+        text-decoration: none;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
+    .b{
+      position: relative;
+      top: 200px;
+      left: 20px;
+    }
+
+  </style>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+<div class="boxed">
+<div class="first_row">
+<div id="center" class="text">Forgot Password</div>
+  <div class="Second_row">
+    <div class="text" id="exp">It's ok!! We've all been here </div>
+  </div>
+  <div class="help">  We can help. All you need is to enter your mail id and follow the instruction!!</div>
+<form >
+  <input id="mail" type="email" name="e-mail" placeholder="E-mail">
+   <input class="b" type="button" value="Submit">
+</form>
+
+
+
+</div></div></div>
+  </body>
+</html>
