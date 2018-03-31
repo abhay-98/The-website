@@ -1,0 +1,137 @@
+.MainBox{
+  position: relative;
+  left: 200px;
+  top:40px;
+  height: 600px;
+  width: 70%;
+  background-color: rgb(250, 250, 250);
+}
+.text{
+margin: 7px 50px 2px 50px;
+font-size: 130%;
+font-style: normal;
+font-weight: bold;
+font-family: fantasy;
+}
+#pay{
+position: relative;
+left:500px;
+top:-10px;
+}
+#m_name{
+position: relative;
+top: 23px;
+left: 150px;
+}
+hr {
+border: none;
+height: 4px;
+background-color:#b5b0b0 ;
+}
+.M_name{
+font-size: 140%;
+font-weight: bold;
+color: grey;
+}
+.tic{
+
+font-size: 180%;
+font-weight:300;
+color: #c1c1c1;
+}
+#tick{
+position: relative;
+
+font-size: 100%;
+}
+.date{
+  position: absolute;
+left: 200px;
+top: 350px;
+}
+.Time{
+  position: absolute;
+left: 300px;
+top: 350px;
+}
+.php{
+  font-size: 100%;
+  font-weight: bold;
+  color: grey;
+}
+.vr {
+    width:4px;
+    height: 600px;
+    background-color:#b5b0b0;
+    position:absolute;
+    top:0px;
+    left:450px;
+}
+.no.{
+  position: absolute;
+left: 100px;
+top: 360px;
+}
+#MPos{
+position: absolute;
+top: 90px;
+left: 500px;
+}
+.paytext{
+  position: absolute;
+  top: 120px;
+  left: 500px;
+  font-weight: 400;
+  font-size: 120%;
+}
+.movrate{
+  position: absolute;
+  top: 120px;
+  left: 690px;
+  font-weight: 400;
+  font-size: 120%;
+}
+.Convfee{
+  position: absolute;
+  top: 150px;
+  left: 500px;
+}
+#ConFee{
+  position: absolute;
+  top: 153px;
+  left: 690px;
+  font-weight: 400;
+  font-size: 120%;
+}
+.total{
+  position: absolute;
+  top: 200px;
+  left: 500px;
+}
+#hr{
+  position: absolute;
+  top: 190px;
+  left: 454px;
+  width: 52%;
+}
+#Order{
+  position: absolute;
+  top: 200px;
+  left: 690px;
+}
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #4CAF50;
+    border: none;
+    width: 30%;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+
+}
+#b1{
+  position: absolute;
+  top: 400px;
+  left: 700px;
+}
