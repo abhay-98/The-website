@@ -6,14 +6,14 @@
       left: 850px;
       top: 100px;
       }
-          .img-circle {
-    border-radius: 50%;
-}
       #google{
       position: absolute;
       left: 350px;
       top: 100px;
       }
+      .img-circle {
+    border-radius: 50%;
+}
       #form {
       width:40%;
       height:450px;
@@ -42,6 +42,42 @@
       border: 2px solid grey;
       border-radius: 10px;
     }
+    input[type=text] {
+        width: 90px;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 10%;
+        font-size: 16px;
+        background-color: white;
+        background-position: 10px 10px;
+        background-repeat: no-repeat;
+        padding: 12px 20px 12px 40px;
+        -webkit-transition: width 0.5s ease-in-out;
+        transition: width 0.5s ease-in-out;
+    }
+
+    input[type=text]:focus {
+        width: 90%;
+         background-color: rgb(213, 238, 184);
+    }
+    input[type=password] {
+        width: 90px;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 10%;
+        font-size: 16px;
+        background-color: white;
+        background-position: 10px 10px;
+        background-repeat: no-repeat;
+        padding: 12px 20px 12px 40px;
+        -webkit-transition: width 0.5s ease-in-out;
+        transition: width 0.5s ease-in-out;
+    }
+
+    input[type=password]:focus {
+        width: 90%;
+         background-color:rgb(213, 238, 184);
+    }
       </style>
     </head>
 
@@ -65,16 +101,19 @@
           Last name:<br>
           <input type="text" name="lname"><p>
           Email:<br>
-            <input id="E-mail" type="text" name="E-mail">
+            <input id="e-mail" type="text" name="e-mail">
           <p>
           Username:<br>
           <input id="User_n"type="text" name="Username">
           <p>
-          Password: <input id="txtPassword" type="password" name="password">
+          Password: <input id="txtPassword" type="password" name="LengthCheck">
           <p>
           Confirm  Password: <input id="txtConfirmPassword" type="password" name="password">
           <p>
-            <input type="button" id="btnSubmit" value="Submit" onclick="return Validate()" />
+            Birthday:
+ <input id=" bday"type="date" name="bday">
+ <p>
+            <input type="button" id="btnSubmit" value="Submit" onclick="return Validate();" />
         </font>
       </font>
       </form>
@@ -87,11 +126,13 @@
             return false;
         }
       {  var x = document.forms["myForm"]["fname"].value;
-   if (x == "") {
-       alert("Name must be filled out");
+   if (x == "",[1,2,3,4,5,6,7,8,9,0]){
+       alert("Name must be filled out and no No or special char");
        return false;}
+
         return true;
-    }}
+    }
+  }
 </script>
     </body>
   </html>
